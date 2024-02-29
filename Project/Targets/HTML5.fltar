@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="MadCap HTML5 Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterPage="/Content/Resources/TemplatePages/Other-Topics.flmsp"
+  DefaultUrl="/Content/Home.htm"
+  ConditionTagExpression="include[Default.PrintOnly or Default.ScreenOnly or Default.Tablet or Default.Web], exclude[Default.Mobile or Default.NewTag]"
+  ShowMadCapBacklink="true"
+  MasterToc="/Project/TOCs/Table of Contents1.fltoc"
+  ResolveCssVariables="true"
+  Skin="/Project/Skins/Side-Navigation.flskn"
+  MobileBreakpoint="769"
+  OutputFolder="C:\Users\Asus\Desktop\Raporty styczeń"
+  GetLatestBeforeCompile="false"
+  FaviconSkin="/Project/Skins/Favicons.flskn"
+  DisableAutoSync="true"
+  OutputFile="index.html">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Destinations></Destinations>
+  <Glossaries />
+  <MicroContentSearch>
+    <FeaturedSnippets
+      type="AllFiles"
+      numberOfResults="1">
+      <microContentSubset />
+    </FeaturedSnippets>
+    <KnowledgePanel
+      type="Empty"
+      numberOfResults="1">
+      <microContentSubset />
+    </KnowledgePanel>
+  </MicroContentSearch>
+</CatapultTarget>
