@@ -1,0 +1,1 @@
+define({prop:'max-width',mediums:{'Mobile':769,'Tablet':1279}});
